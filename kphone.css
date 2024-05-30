@@ -2,6 +2,16 @@
     font-size: 15px;
 }
 #d2 {
-    height: 20%;
+    height: 30%;
+    width: 60%;
+}
+#d3 {
     width: 80%;
+    border-top: 0px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    height: auto;
+    background-color: antiquewhite;
+
+    
 }
