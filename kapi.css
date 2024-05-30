@@ -14,8 +14,8 @@ body {
 }
 .dv {
     transform: translate(33%, 20%);
-    height: 80%;
-    width: 40%;
+    height: 40%;
+    width: 80%;
     border-width: 1%;
     border-style: solid;
 }
