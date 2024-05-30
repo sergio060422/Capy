@@ -2,16 +2,22 @@
     font-size: 15px;
 }
 #d2 {
-    height: 30%;
-    width: 60%;
+    height: 25%;
+    width: 75%;
 }
 #d3 {
-    width: 80%;
+    width: 75%;
     border-top: 0px;
-    padding-bottom: 2px;
-    padding-top: 2px;
+    padding-bottom: 4px;
+    padding-top: 4px;
     height: auto;
     background-color: antiquewhite;
 
     
+}
+.Bt {
+    border-width: 2px;
+}
+#bdl {
+    border-bottom: 2px;
 }
