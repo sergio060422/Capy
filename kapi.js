@@ -1,4 +1,4 @@
-let lst = ["Images/capy%20(1).jpg"];
+let lst = ["Images/capy(1).jpg"];
 let p = 0, sz = 1;
 
 function bt(){
@@ -73,6 +73,7 @@ function show(ev){
         dw.href = lst[p];
     }
 }
+
 
 window.addEventListener("load", bt);
 
