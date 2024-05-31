@@ -6,6 +6,8 @@ header {
     height: 8%;
     border-bottom-width: 1%;
     border-bottom-style: solid;
+    text-align: center;
+    transform: translateY(50%);
 }
 #d2 {
     height: 22%;
