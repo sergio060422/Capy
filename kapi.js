@@ -1,4 +1,4 @@
-let lst = ["Images/capy(1).jpg"];
+let lst = ["Images/capy%20(6).jpeg"];
 let p = 0, sz = 1;
 
 function bt(){
