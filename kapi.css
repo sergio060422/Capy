@@ -31,8 +31,10 @@ body {
     border-bottom-style: solid;
 }
 #pd {
-    width: 110%;
+    width: 101%;
     height: 100%;
+    position: absolute;
+    left: 0%;
     background-color: pink;
     text-align: center;
 }
