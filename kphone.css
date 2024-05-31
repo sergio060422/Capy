@@ -1,10 +1,10 @@
 #h1 {
-    font-size: 15px;
+    font-size: 16px;
 }
 #d2 {
-    height: 20%;
+    height: 22%;
     width: 75%;
-    margin-top: 15%;
+    margin-top: 20%;
 }
 #d3 {
     width: 75%;
@@ -12,9 +12,7 @@
     padding-bottom: 4px;
     padding-top: 4px;
     height: auto;
-    background-color: antiquewhite;
-
-    
+    background-color: antiquewhite;   
 }
 .Bt {
     border-width: 1px;
