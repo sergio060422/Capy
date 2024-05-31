@@ -1,7 +1,7 @@
 #h1 {
     font-size: 20px;
     border-width: 0px;
-    position: absolute;
+    position: block;
     top: 50%;
     transform: translateY(-50%);
     
