@@ -1,9 +1,7 @@
 #h1 {
     font-size: 20px;
     border-width: 0px;
-    position: block;
-    top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(40%);
     
 }
 header {
