@@ -1,8 +1,11 @@
 #h1 {
     font-size: 20px;
+    border-width: 0px;
 }
 header {
     height: 8%;
+    border-bottom-width: 1%;
+    border-bottom-style: solid;
 }
 #d2 {
     height: 22%;
