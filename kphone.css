@@ -1,5 +1,5 @@
 #h1 {
-    font-size: 16px;
+    font-size: 20px;
 }
 #d2 {
     height: 22%;
@@ -20,5 +20,8 @@
     border-width: 1px;
 }
 #d0 {
-    margin-top: 15%;
+    margin-top: 10%;
+}
+a {
+    font-size: 10px;
 }
