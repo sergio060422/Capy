@@ -75,8 +75,27 @@ function show(ev){
 }
 
 
-window.addEventListener("load", bt);
 
+function fun(){
+    let elm = document.getElementById("gg");
+    let st = elm.style.display;
+    
+    if(st == "none"){
+        elm.style.display = "block";
+    }
+    else{
+        elm.style.display = "none";
+    }
+    
+}
+
+function capi(){
+    let elm = document.getElementById("cp");
+    elm.addEventListener("click", fun);
+}
+
+window.addEventListener("load", bt);
+window.addEventListener("load", capi)
 
 
 

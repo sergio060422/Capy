@@ -18,11 +18,11 @@ body > header {
 .dv {
     display: inline-block;
     border-width: 1%;
-    border-style: solid;
-    background-color: lightyellow;
+    border-style: solid;  
 }
 
 #d2 {
+    background-color: lightyellow;
     border-width: 1%;
     overflow: auto;
     height: 60%;
@@ -42,7 +42,6 @@ body > header {
     width: 30%;
     border-width: 1%;
     border-style: solid;
-   
 }
 #dw {
     color: inherit;
@@ -56,6 +55,36 @@ body > header {
     display: block;
     
 }
+nav{
+    text-align: left;
+    width: 100%;
+    background-color: darkseagreen;
+    border-bottom-width: 1%;
+    border-bottom-style: solid;
+}
+a {
+    font-size: 24px;
+    padding: 1% 1% 1% 1%;
+}
+#gg {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    right: 0px;
+    display: none;
+}
+#cp {
+    width: 5%;
+    margin-top: 10%;
+    border-width: 1%;
+    border-style: solid;
+}
+#b1 {
+   width: 5%;
+   padding: 1% 1%;
+   display: none;
+}
+
 #br {
     float: right;
     transform: translateX(-40%);
@@ -70,9 +99,7 @@ body > header {
     padding-bottom: 1%;
     padding-top: 1%;
     height: auto;
-    
-
-    
+    background-color: lightyellow;
 }
 #d2 {
      margin-top: 6%; 
