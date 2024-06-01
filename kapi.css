@@ -50,7 +50,9 @@ body > header {
 
 
 #d0 {
-    overflow: hidden; 
+    overflow: hidden;
+ 
+    
 }
 @keyframes anim {
     0% {
