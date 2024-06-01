@@ -13,6 +13,8 @@ body > header {
     text-align: left;
     background-color: antiquewhite;
     padding: 0px;
+    overflow: hidden;
+ 
     
 }
 .dv {
@@ -36,7 +38,34 @@ body > header {
     border-bottom-style: solid;
     padding: 1% 1%;
     margin: 0px;
+}
+#anm {
+    width: 10%;
+    transform: translateY(100%);
+    animation-name: anim;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+}
 
+
+#d0 {
+    overflow: hidden; 
+}
+@keyframes anim {
+    0% {
+         transform: translateY(100%);
+    }
+    25% {
+        transform: translateY(40%);
+    }
+    50% {
+        transform: translateY(15%);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+   
 }
 #bdl {
     width: 30%;
@@ -66,19 +95,6 @@ a {
     font-size: 24px;
     padding: 1% 1% 1% 1%;
 }
-#gg {
-    width: 50%;
-    height: auto;
-    position: absolute;
-    right: 0px;
-    display: none;
-}
-#cp {
-    width: 5%;
-    margin-top: 10%;
-    border-width: 1%;
-    border-style: solid;
-}
 #b1 {
    width: 5%;
    padding: 1% 1%;
@@ -101,6 +117,4 @@ a {
     height: auto;
     background-color: lightyellow;
 }
-#d2 {
-     margin-top: 6%; 
-}
+
