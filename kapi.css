@@ -87,7 +87,7 @@ body > header {
 nav{
     text-align: left;
     width: 100%;
-    background-color: darkseagreen;
+    background-color: orange;
     border-bottom-width: 1%;
     border-bottom-style: solid;
 }
@@ -116,5 +116,6 @@ a {
     padding-top: 1%;
     height: auto;
     background-color: lightyellow;
+    margin-bottom: 5%;
 }
 
