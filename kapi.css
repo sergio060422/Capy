@@ -40,8 +40,6 @@ body > header {
     animation-iteration-count: infinite;
     animation-delay: 0.5s;
 }
-
-
 #d0 {
     overflow: hidden;  
 }
@@ -87,10 +85,13 @@ nav{
 }
 a {
     font-size: 24px;
-    padding: 1% 1% 1% 1%;
+    padding: 0% 1% 0% 1%;
     color: black;
     text-decoration: none;
-    
+}
+#vpn {
+    border: 0px 1% 0px 1%;
+    border-style: none solid none solid;
 }
 #ch {
     width: 25%;
