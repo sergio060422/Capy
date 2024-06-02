@@ -50,9 +50,7 @@ body > header {
 
 
 #d0 {
-    overflow: hidden;
- 
-    
+    overflow: hidden;  
 }
 @keyframes anim {
     0% {
@@ -96,6 +94,8 @@ nav{
 a {
     font-size: 24px;
     padding: 1% 1% 1% 1%;
+    color: black;
+    text-decoration: none;
 }
 #b1 {
    width: 5%;

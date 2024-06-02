@@ -1,6 +1,9 @@
 #h1 {
     font-size: 20px;
 }
+header {
+    height: 6%;
+}
 #d2 {
     height: 22%;
     width: 75%;
@@ -24,4 +27,7 @@
 }
 a {
     font-size: 10px;
+}
+#anm {
+    width: 15%;
 }
