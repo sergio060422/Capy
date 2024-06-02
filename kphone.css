@@ -2,12 +2,7 @@ header {
     height: 6%;
     position: relative;
 }
-#h1 {
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
+
 
 #d2 {
     height: 22%;
