@@ -1,7 +1,6 @@
 #ch {
-    height: 5%;
+    height: 4%;
     width: auto;
-    padding: 2%;
 }
 #d2 {
     height: 22%;
@@ -25,7 +24,8 @@
     margin-top: 10%;
 }
 a {
-    font-size: 12px;
+    font-size: 14px;
+    font-family: monospace;
 }
 #anm {
     width: 13%;

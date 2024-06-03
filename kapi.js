@@ -74,8 +74,6 @@ function show(ev){
     }
 }
 
-
-
 function fun(){
     let elm = document.getElementById("gg");
     let st = elm.style.display;
@@ -94,9 +92,32 @@ function capi(){
     elm.addEventListener("click", fun);
 }
 
-window.addEventListener("load", bt);
-window.addEventListener("load", capi)
+let XD = 1;
 
+function cfun(){
+    let elm = document.getElementById("d4");
+    if(XD){
+        elm.classList.add("anima1");
+        elm.classList.remove("anima2");
+        document.getElementById("sc").src = "Images/Supercapy-Left.png";
+        XD = 0;
+    }
+    else{
+        elm.classList.add("anima2");
+        elm.classList.remove("anima1");
+        document.getElementById("sc").src = "Images/Supercapy-Right.png";
+        XD = 1;
+    }
+}
+
+function cf(){
+    let elm = document.getElementById("bd");
+    elm.addEventListener("click", cfun)
+}
+
+window.addEventListener("load", bt);
+window.addEventListener("load", capi);
+window.addEventListener("load", cf);
 
 
 

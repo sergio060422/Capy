@@ -7,20 +7,20 @@ body {
     text-align: center;
     background-image: url(Images/capybara-pattern-with-pink-hearts-vector-cute-cartoon-capy-animal-print-kids-lovely-wallpaper_166089-3804.jpg);
     margin: 0px;
+    overflow-x: hidden;
     
 }
 body > header {
     text-align: left;
     background-color: antiquewhite;
     padding: 0px;
-    overflow: hidden;
- 
-    
+    overflow: hidden; 
 }
 .dv {
     display: inline-block;
     border-width: 1%;
-    border-style: solid;  
+    border-style: solid;
+    
 }
 
 #d2 {
@@ -119,5 +119,49 @@ a {
     height: auto;
     background-color: lightyellow;
     margin-bottom: 5%;
+}
+#sc {
+    width: 20%;
+}
+
+#d4 {
+    position: relative;
+    margin-bottom: 20%;
+    transform: translateX(100%);
+}
+
+#d4.anima1 {
+    transform: translateX(-100%);
+    transition-property: transform;
+    transition-duration: 4s;
+    transition-timing-function: linear;
+}
+#d4.anima2 {
+    transform: translateX(100%);
+    transition-property: transform;
+    transition-duration: 4s;
+    transition-timing-function: linear;
+}
+#d6 {
+    width: 35%; 
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#tb {
+    width: 100%;
+}
+p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+    font-size: 150%;
+    font-style: oblique;
+    width: 80%;
+}
+#cf {
+    width: 5%;
 }
 
