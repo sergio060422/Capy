@@ -131,15 +131,15 @@ a {
 }
 
 #d4.anima1 {
-    transform: translateX(-100%);
+    transform: translateX(-80%);
     transition-property: transform;
-    transition-duration: 4s;
+    transition-duration: 10s;
     transition-timing-function: linear;
 }
 #d4.anima2 {
-    transform: translateX(100%);
+    transform: translateX(80%);
     transition-property: transform;
-    transition-duration: 4s;
+    transition-duration: 10s;
     transition-timing-function: linear;
 }
 #d6 {
@@ -164,4 +164,5 @@ p {
 #cf {
     width: 5%;
 }
+
 

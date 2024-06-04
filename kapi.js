@@ -74,28 +74,18 @@ function show(ev){
     }
 }
 
-function fun(){
-    let elm = document.getElementById("gg");
-    let st = elm.style.display;
-    
-    if(st == "none"){
-        elm.style.display = "block";
-    }
-    else{
-        elm.style.display = "none";
-    }
-    
-}
-
-function capi(){
-    let elm = document.getElementById("cp");
-    elm.addEventListener("click", fun);
-}
-
 let XD = 1;
 
-function cfun(){
+function change_text(e){
+    let dt = e.target;
     let elm = document.getElementById("d4");
+    
+    if(dt.status == 200){
+        let ans = dt.response["data"]["fact"];
+        let tx = document.getElementById("pp");
+        
+        tx.textContent = ans;
+    }
     if(XD){
         elm.classList.add("anima1");
         elm.classList.remove("anima2");
@@ -110,13 +100,23 @@ function cfun(){
     }
 }
 
+function cfun(){
+    let res = new XMLHttpRequest();
+    let lk = "https://api.capy.lol/v1/fact";
+    res.addEventListener("load", change_text);
+    res.responseType = "json";
+    res.open("GET", lk, true);
+    res.send(null);
+    
+    
+}
+
 function cf(){
     let elm = document.getElementById("bd");
-    elm.addEventListener("click", cfun)
+    elm.addEventListener("click", cfun);
 }
 
 window.addEventListener("load", bt);
-window.addEventListener("load", capi);
 window.addEventListener("load", cf);
 
 
