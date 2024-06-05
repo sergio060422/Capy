@@ -1,6 +1,5 @@
-body {
-    min-width: max-content;
-    min-height: max-content;
+#hd {
+    width: 100%;
 }
 #ch {
     height: 4%;
