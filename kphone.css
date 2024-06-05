@@ -1,5 +1,5 @@
 body {
-    position: fixed;
+    position: static;
     overflow-y: scroll;
 }
 #ch {
