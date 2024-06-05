@@ -1,6 +1,5 @@
 body {
     position: fixed;
-    width: 100%;
     overflow-y: scroll;
 }
 #ch {
