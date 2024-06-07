@@ -11,7 +11,7 @@ def read(filename):
 def main(filename):
    if(filename.endswith('.js') or filename.endswith('.ts')):
       return Response(read(filename),mimetype='application/javascript')
-   if(filename.endswith('.css'):
+   if(filename.endswith('.css')):
       return Response(read(filename),mimetype='text/css')     
    return read(filename)
 
