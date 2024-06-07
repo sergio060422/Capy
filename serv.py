@@ -1,5 +1,5 @@
 from flask import *
-web = Flask(name="web")
+web = Flask("web")
 
 @web.route('/<path:filename>')
 def main(filename):
@@ -16,3 +16,4 @@ def read(filename):
    data=file.read(2**30)
    file.close()
    return data
+web.run("0.0.0.0",80)
