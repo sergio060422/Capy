@@ -53,7 +53,7 @@ function btr(e){
 }
 
 function req(){
-    let lk = "https://api.capy.lol/v1/capybara";
+    let lk = "https://capybara-356k.onrender.com/rand";
     let res = new XMLHttpRequest();
     res.addEventListener("load", show);
     res.responseType = "blob";
