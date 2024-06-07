@@ -176,7 +176,7 @@ p {
 #cf {
     width: 5%;
 }
-a{
+a, span{
     font-size: 2vw;  
     cursor: pointer;
 }
