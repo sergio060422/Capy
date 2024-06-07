@@ -11,7 +11,7 @@ def main(filename):
 
 @web.route('/')
 def main2():
-   return Response(read('index.html'))
+   return read('index.html')
 
 def read(filename):
    file=open(filename,'rb')
