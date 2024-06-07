@@ -3,9 +3,9 @@ web = Flask("web")
 
 @web.route('/<path:filename>')
 def main(filename):
-   if(sub_path.endswith('.js') or sub_path.endswith('.ts')):
+   if(filename.endswith('.js') or filename.endswith('.ts')):
       return Response(read(filename),mimetype='application/javascript')
-   if(sub_path.endswith('.css'):
+   if(filename.endswith('.css'):
       return Response(read(filename),mimetype='text/css')     
    return read(filename)
 
