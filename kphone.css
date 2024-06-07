@@ -30,11 +30,13 @@ a {
 }
 #anm {
     width: 13%;
-    
 }
 #sc {
     width: 25%;
 }
 #d6 {
     width: 40%;
+}
+p{
+   font-size: 1vw;
 }
