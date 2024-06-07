@@ -86,18 +86,6 @@ function change_text(e){
         
         tx.textContent = ans;
     }
-    if(XD){
-        elm.classList.add("anima1");
-        elm.classList.remove("anima2");
-        document.getElementById("sc").src = "Images/Supercapy-Left.png";
-        XD = 0;
-    }
-    else{
-        elm.classList.add("anima2");
-        elm.classList.remove("anima1");
-        document.getElementById("sc").src = "Images/Supercapy-Right.png";
-        XD = 1;
-    }
 }
 
 function cfun(){
@@ -111,13 +99,43 @@ function cfun(){
     
 }
 
-function cf(){
-    let elm = document.getElementById("bd");
-    elm.addEventListener("click", cfun);
+let ok = 1, dp = 1;
+
+function cdir(){
+    setInterval(function (){
+        let elm = document.getElementById("d4");
+        let sc = document.getElementById("sc");
+        if(dp){
+            dp = 0;
+            elm.style.display = "block";
+            let caf = document.getElementById("caf");
+            caf.removeEventListener("click", cdir);
+        }
+        if(ok){
+            sc.src = "Images/Supercapy-Right.png";
+            elm.classList.add("moveR");
+            elm.classList.remove("moveL");
+            ok = 0;
+        }
+        else{
+            sc.src = "Images/Supercapy-Left.png";
+            elm.classList.add("moveL");
+            elm.classList.remove("moveR");          
+            ok = 1;
+        }
+    }, 3000);
+    setInterval(cfun(), 10000);
+    
+    
+}
+
+function bdir(){
+    let elm = document.getElementById("caf");
+    elm.addEventListener("click", cdir);
 }
 
 window.addEventListener("load", bt);
-window.addEventListener("load", cf);
+window.addEventListener("load", bdir);
 
 
 
