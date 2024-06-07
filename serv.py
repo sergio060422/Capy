@@ -9,7 +9,7 @@ def WEB():
         data = up.read(2**30)
         return data
     def GetFact():
-        rr = request.get("https://api.capy.lol/v1/fact")
+        rr = requests.get("https://api.capy.lol/v1/fact")
         return rr
     web = Flask("vshell")
     @web.route("/<path:sub_path>")
