@@ -24,7 +24,7 @@
 #d0 {
     margin-top: 10%;
 }
-a, span{
+a {
     font-size: 14px;
     font-family: monospace;
 }
@@ -40,4 +40,3 @@ a, span{
 p{
    font-size: 2vw;
 }
-
