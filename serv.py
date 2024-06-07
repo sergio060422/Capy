@@ -26,7 +26,7 @@ def WEB():
             except Exception as e:
                 print(e)
                 continue
-        return data
+        return Response(data,mimetype="image/png")
     def route(url):
         try:
             file = open(url,'rb')
