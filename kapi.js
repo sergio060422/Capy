@@ -90,7 +90,7 @@ function change_text(e){
 
 function cfun(){
     let res = new XMLHttpRequest();
-    let lk = "https://api.capy.lol/v1/fact";
+    let lk = "https://capybara-356k.onrender.com/fact";
     res.addEventListener("load", change_text);
     res.responseType = "json";
     res.open("GET", lk, true);
